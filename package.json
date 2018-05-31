@@ -4,7 +4,9 @@
         "lerna": "^2.11.0"
     },
     "useWorkspaces": true,
-    "workspaces": [
-        "packages/*"
-    ]
+    "workspaces": ["packages/*"],
+    "scripts": {
+        "release":
+            "lerna publish --conventional-commits --changelog-preset angular-bitbucket --skip-npm"
+    }
 }
