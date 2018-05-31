@@ -1,9 +1,9 @@
 {
     "name": "pkg2",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "main": "app.js",
     "license": "MIT",
     "dependencies": {
-        "@yo/pkg1": "^2.0.1"
+        "@yo/pkg1": "^2.1.0"
     }
 }
