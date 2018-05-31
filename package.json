@@ -7,6 +7,6 @@
     "workspaces": ["packages/*"],
     "scripts": {
         "release":
-            "lerna publish --conventional-commits --changelog-preset angular-bitbucket --skip-npm"
+            "lerna publish --conventional-commits --changelog-preset angular-bitbucket --skip-npm --yes"
     }
 }
