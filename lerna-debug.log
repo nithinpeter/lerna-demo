@@ -1,0 +1,15 @@
+0 silly input [ './packages/pkg1' ]
+1 silly flags { _: [ 'diff' ],
+1 silly flags   'reject-cycles': false,
+1 silly flags   rejectCycles: false,
+1 silly flags   pkg: './packages/pkg1' }
+2 verbose rootPath C:\repos\lerna-demo
+3 info version 2.11.0
+4 silly isInitialized
+5 silly isInitialized true
+6 silly existsSync C:\repos\lerna-demo\VERSION
+7 info versioning independent
+8 silly initialize attempt
+9 error initialize callback with error
+10 error Error: Package './packages/pkg1' does not exist.
+10 error     at DiffCommand.initialize (C:\Users\Nithin.Peter\AppData\Roaming\npm\node_modules\lerna\lib\commands\DiffCommand.js:83:20)
